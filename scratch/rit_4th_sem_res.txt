@@ -1,0 +1,44 @@
+Semester 4 (Total = 6 Subjects)
+
+
+1. Database Management Systems
+Unit 1: Relational Model & Relational Algebra
+Unit 2: SQL Queries, Joins, Views & Triggers
+Unit 3: Normalization (1NF, 2NF, 3NF, BCNF)
+Unit 4: Transaction Processing & Concurrency Control
+Unit 5: Indexing, Hashing & Storage Architecture
+
+2. Operating Systems
+Unit 1: Operating System Structure & Processes
+Unit 2: CPU Scheduling & Synchronization
+Unit 3: Memory Management & Virtual Memory
+Unit 4: File System Storage & I/O Systems
+Unit 5: Virtualization & Distributed Systems
+
+3. Theory of Computation
+Unit 1: Finite Automata & Regular Expressions
+Unit 2: Context-Free Grammars & Pushdown Automata
+Unit 3: Turing Machines & Computability
+Unit 4: Decidability & Undecidability
+Unit 5: NP-Completeness & Complexity Classes
+
+4. Software Development Practices
+Unit 1: Software Process Models & Agile Methodology
+Unit 2: Requirements Engineering & Modeling
+Unit 3: Architectural Design & Design Patterns
+Unit 4: Software Testing & Quality Assurance
+Unit 5: DevOps, CI/CD & Project Management
+
+5. Machine Learning Techniques
+Unit 1: Supervised Learning & Regression Analysis
+Unit 2: Classification Models & Decision Trees
+Unit 3: Unsupervised Learning & Clustering
+Unit 4: Neural Networks & Deep Learning Foundations
+Unit 5: Model Evaluation, Optimization & Reinforcement Learning
+
+6. Design and Analysis of Algorithms
+Unit 1: Algorithm Analysis & Asymptotic Notations
+Unit 2: Divide and Conquer & Greedy Strategies
+Unit 3: Dynamic Programming & Graph Algorithms
+Unit 4: Backtracking & Branch and Bound
+Unit 5: NP-Hard & NP-Complete Problems

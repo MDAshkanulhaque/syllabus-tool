@@ -1,0 +1,130 @@
+Semester 4 (Total = 15 Subjects)
+
+
+1. Database Management Systems
+   VERTICAL 4
+   - ARTIFICIAL INTELLIGENCE Course Code Course Title Category Periods Per Week Total Contact Periods Credits AD23V41 Cognitive Science AD23V42 Generative AI AD23V28 Responsive AI AD23V43 Pattern Recognition AD23V45 Reinforcement Learning AD23V24 Computer Vision AD23V44 Recommender systems AD23V46 Text and Speech Analysis
+
+   VERTICAL 5
+   - FULL STACK DEVELOPMENT Course Code Course Title Category Periods Per Week Total Contact Periods Credits CS23V51 Agile and DevOps CS23V53 MLOps CS23V52 Mobile App Development CS23V54 Software Testing and Automation CS23V25 Cloud Services Management CS23V55 UI and UX Design CS23V56 Web Application Security CS23V57 Web Technologies
+
+   VERTICAL 6
+   - SUPPLY CHAIN MANAGEMENT FOR INDUSTRIES Course Code Course Title Category Periods Per Week Total Contact Periods Credits ME23V61 Industry 5.0 ME23V62 Planning in Logistics ME23V63 Supply Chain Analytics ME23V64 Supply Chain Information System ME23V65 Supply Chain Management ME23V66 Supply Chain for Manufacturing ME23V67 Sustainable Inventory Management ME23V68 Warehouse Automation
+
+2. Operating Systems
+   VERTICAL 7
+   - CYBER SECURITY AND DATA PRIVACY Course Code Course Title Category Periods Per Week Total Contact Periods Credits CS23V73 Ethical Hacking CS23V31 Cryptocurrency and Blockchain Technologies CS23V72 Engineering Secure Software Systems CS23V71 Digital and Mobile Forensics CS23V74 Modern Cryptography CS23V75 Network Security CS23V26 Security and Privacy in Cloud CS23V76 Social Network Security OPEN ELECTIVES (Students shall choose the Open Elective Courses, such that the course contents are not similar to any other course contents/title under other course categories). OPEN ELECTIVES
+   - I Sl.No. Course Code Course Title Category Periods Per Week Total Contact Periods Credits O23AD11 Programming for Data Science O23AL11 Fundamentals of AI and ML O23CB11 Software Testing O23CC11 AI for Robotics O23CS11 Introduction to Cloud Computing O23EC11 Space Engineering O23EC12 IT in Agricultural System O23EV11 Fundamentals of VLSI O23MA11 Probability and Statistics for Data Analytics O23ME11 Foundation of Robotics
+
+3. Theory of Computation
+   Syllabus Topics
+   - Core concepts, theoretical foundations, and practical exercises for Theory of Computation.
+
+4. Software Development Practices
+   PSO 1
+   - To analyze, design and develop computing solutions by applying foundational concepts of Computer Science and Engineering.
+
+   PSO 2
+   - To apply software engineering principles and practices for developing quality software for scientific and business applications.
+
+   PSO 3
+   - To adapt to emerging Information and Communication Technologies (ICT) to innovate ideas and solutions to existing/novel problems.
+
+5. Machine Learning Techniques
+   PSO 1
+   - To analyze, design and develop computing solutions by applying foundational concepts of Computer Science and Engineering.
+
+   PSO 2
+   - To apply software engineering principles and practices for developing quality software for scientific and business applications.
+
+   PSO 3
+   - To adapt to emerging Information and Communication Technologies (ICT) to innovate ideas and solutions to existing/novel problems.
+
+6. Design and Analysis of Algorithms
+   VERTICAL 4
+   - ARTIFICIAL INTELLIGENCE Course Code Course Title Category Periods Per Week Total Contact Periods Credits AD23V41 Cognitive Science AD23V42 Generative AI AD23V28 Responsive AI AD23V43 Pattern Recognition AD23V45 Reinforcement Learning AD23V24 Computer Vision AD23V44 Recommender systems AD23V46 Text and Speech Analysis
+
+   VERTICAL 5
+   - FULL STACK DEVELOPMENT Course Code Course Title Category Periods Per Week Total Contact Periods Credits CS23V51 Agile and DevOps CS23V53 MLOps CS23V52 Mobile App Development CS23V54 Software Testing and Automation CS23V25 Cloud Services Management CS23V55 UI and UX Design CS23V56 Web Application Security CS23V57 Web Technologies
+
+   VERTICAL 6
+   - SUPPLY CHAIN MANAGEMENT FOR INDUSTRIES Course Code Course Title Category Periods Per Week Total Contact Periods Credits ME23V61 Industry 5.0 ME23V62 Planning in Logistics ME23V63 Supply Chain Analytics ME23V64 Supply Chain Information System ME23V65 Supply Chain Management ME23V66 Supply Chain for Manufacturing ME23V67 Sustainable Inventory Management ME23V68 Warehouse Automation
+
+7. Operating Systems Laboratory
+   VERTICAL 7
+   - CYBER SECURITY AND DATA PRIVACY Course Code Course Title Category Periods Per Week Total Contact Periods Credits CS23V73 Ethical Hacking CS23V31 Cryptocurrency and Blockchain Technologies CS23V72 Engineering Secure Software Systems CS23V71 Digital and Mobile Forensics CS23V74 Modern Cryptography CS23V75 Network Security CS23V26 Security and Privacy in Cloud CS23V76 Social Network Security OPEN ELECTIVES (Students shall choose the Open Elective Courses, such that the course contents are not similar to any other course contents/title under other course categories). OPEN ELECTIVES
+   - I Sl.No. Course Code Course Title Category Periods Per Week Total Contact Periods Credits O23AD11 Programming for Data Science O23AL11 Fundamentals of AI and ML O23CB11 Software Testing O23CC11 AI for Robotics O23CS11 Introduction to Cloud Computing O23EC11 Space Engineering O23EC12 IT in Agricultural System O23EV11 Fundamentals of VLSI O23MA11 Probability and Statistics for Data Analytics O23ME11 Foundation of Robotics
+
+8. Computer Networks
+   PROFESSIONAL ELECTIVE COURSES
+   - VERTICALS
+
+   VERTICAL 1
+   - DATA SCIENCE Course Code Course Title Category Periods Per Week Total Contact Periods Credits AL23V11 Exploratory Data Analysis AD23V12 Big Data Analytics AD23V13 Data Warehousing and Data Mining AD23V14 Healthcare Analytics AD23V15 Image and Video Analytics AD23V24 Computer Vision AD23V44 Recommender Systems AD23V46 Text and Speech Analysis
+
+   VERTICAL 2
+   - CLOUD COMPUTING Course Code Course Title Category Periods Per Week Total Contact Periods Credits CS23V21 Cloud Solution Architecture CS23V22 Cloud Configuration Management CS23V23 Cloud Virtualization CS23V24 Cloud Container Orchestration CS23V25 Cloud Services Management CS23V26 Security and Privacy in Cloud CS23V27 Cloud Storage Technologies CS23V28 Software Defined Networks
+
+   VERTICAL 3
+   - EMERGING TECHNOLOGIES Course Code Course Title Category Periods Per Week Total Contact Periods Credits CS23V21 Cloud Solution Architecture CS23V31 Cryptocurrency and Blockchain Technologies CS23V32 Augmented Reality/Virtual Reality CS23V33 Autonomous Mobility Systems CS23V34 Metaverse CS23V35 Large Language Models CS23V36 Game Development CS23V37 Intelligence Process Automation
+
+9. Compiler Design
+   VERTICAL 4
+   - ARTIFICIAL INTELLIGENCE Course Code Course Title Category Periods Per Week Total Contact Periods Credits AD23V41 Cognitive Science AD23V42 Generative AI AD23V28 Responsive AI AD23V43 Pattern Recognition AD23V45 Reinforcement Learning AD23V24 Computer Vision AD23V44 Recommender systems AD23V46 Text and Speech Analysis
+
+   VERTICAL 5
+   - FULL STACK DEVELOPMENT Course Code Course Title Category Periods Per Week Total Contact Periods Credits CS23V51 Agile and DevOps CS23V53 MLOps CS23V52 Mobile App Development CS23V54 Software Testing and Automation CS23V25 Cloud Services Management CS23V55 UI and UX Design CS23V56 Web Application Security CS23V57 Web Technologies
+
+   VERTICAL 6
+   - SUPPLY CHAIN MANAGEMENT FOR INDUSTRIES Course Code Course Title Category Periods Per Week Total Contact Periods Credits ME23V61 Industry 5.0 ME23V62 Planning in Logistics ME23V63 Supply Chain Analytics ME23V64 Supply Chain Information System ME23V65 Supply Chain Management ME23V66 Supply Chain for Manufacturing ME23V67 Sustainable Inventory Management ME23V68 Warehouse Automation
+
+10. Deep Learning Techniques
+   PSO 1
+   - To analyze, design and develop computing solutions by applying foundational concepts of Computer Science and Engineering.
+
+   PSO 2
+   - To apply software engineering principles and practices for developing quality software for scientific and business applications.
+
+   PSO 3
+   - To adapt to emerging Information and Communication Technologies (ICT) to innovate ideas and solutions to existing/novel problems.
+
+11. Data Exploration and Visualization
+   VERTICAL 3
+   - BUSINESS DATA ANALYTICS Sl.No. Course Code Course Title Category Periods Per Week Total Contact Periods Credits L T P CB23M01 Data Mining for Business Intelligence CB23M02 Financial Analytics 3 0 0 CB23M03 Human Resource Analytics CB23M04 Marketing and Social Media Web Analytics CB23M05 Operation and Supply Chain Analytics CB23M06 Statistics for Management
+
+   VERTICAL 4
+   - INTERNET OF THINGS Sl.No. Course Code Course Title Category Periods Per Week Total Contact Periods Credits L T P EC23M01 IoT Architecture EC23M02 IoT Device Programming EC23M03 IoT Foundations EC23M04 Industrial Internet of Things EC23M05 IoT protocols EC23M06 Sensor Technologies and IoT
+
+12. Computer Networks Laboratory
+   PROFESSIONAL ELECTIVE COURSES
+   - VERTICALS
+
+   VERTICAL 1
+   - DATA SCIENCE Course Code Course Title Category Periods Per Week Total Contact Periods Credits AL23V11 Exploratory Data Analysis AD23V12 Big Data Analytics AD23V13 Data Warehousing and Data Mining AD23V14 Healthcare Analytics AD23V15 Image and Video Analytics AD23V24 Computer Vision AD23V44 Recommender Systems AD23V46 Text and Speech Analysis
+
+   VERTICAL 2
+   - CLOUD COMPUTING Course Code Course Title Category Periods Per Week Total Contact Periods Credits CS23V21 Cloud Solution Architecture CS23V22 Cloud Configuration Management CS23V23 Cloud Virtualization CS23V24 Cloud Container Orchestration CS23V25 Cloud Services Management CS23V26 Security and Privacy in Cloud CS23V27 Cloud Storage Technologies CS23V28 Software Defined Networks
+
+   VERTICAL 3
+   - EMERGING TECHNOLOGIES Course Code Course Title Category Periods Per Week Total Contact Periods Credits CS23V21 Cloud Solution Architecture CS23V31 Cryptocurrency and Blockchain Technologies CS23V32 Augmented Reality/Virtual Reality CS23V33 Autonomous Mobility Systems CS23V34 Metaverse CS23V35 Large Language Models CS23V36 Game Development CS23V37 Intelligence Process Automation
+
+13. தமிழரும் ததொழில்நுட்பமும் / Tamils and Technology
+   Syllabus Topics
+   - Core concepts, theoretical foundations, and practical exercises for தமிழரும் ததொழில்நுட்பமும் / Tamils and Technology.
+
+14. Database Management Systems Laboratory
+   VERTICAL 4
+   - ARTIFICIAL INTELLIGENCE Course Code Course Title Category Periods Per Week Total Contact Periods Credits AD23V41 Cognitive Science AD23V42 Generative AI AD23V28 Responsive AI AD23V43 Pattern Recognition AD23V45 Reinforcement Learning AD23V24 Computer Vision AD23V44 Recommender systems AD23V46 Text and Speech Analysis
+
+   VERTICAL 5
+   - FULL STACK DEVELOPMENT Course Code Course Title Category Periods Per Week Total Contact Periods Credits CS23V51 Agile and DevOps CS23V53 MLOps CS23V52 Mobile App Development CS23V54 Software Testing and Automation CS23V25 Cloud Services Management CS23V55 UI and UX Design CS23V56 Web Application Security CS23V57 Web Technologies
+
+   VERTICAL 6
+   - SUPPLY CHAIN MANAGEMENT FOR INDUSTRIES Course Code Course Title Category Periods Per Week Total Contact Periods Credits ME23V61 Industry 5.0 ME23V62 Planning in Logistics ME23V63 Supply Chain Analytics ME23V64 Supply Chain Information System ME23V65 Supply Chain Management ME23V66 Supply Chain for Manufacturing ME23V67 Sustainable Inventory Management ME23V68 Warehouse Automation
+
+15. Introduction to Women and Gender Studies
+   VERTICAL 1
+   - FINTECH AND BLOCK CHAIN SI.No. Course Code Course Title Category Periods Per Week Total Contact Periods Credits L T P CS23M01 Banking, Financial Services and Insurance CS23M02 Principles of Financial Management CS23M03 Fintech Personal Finance and Payments CS23M04 Fundamentals of Investment CS23M05 Introduction to Blockchain and its Applications CS23M06 Introduction to Fintech
+
+   VERTICAL 2
+   - ENTREPRENEURSHIP Sl.No. Course Code Course Title Category Periods Per Week Total Contact Periods Credits L T P ME23M01 Foundations of Entrepreneurship ME23M02 Team Building and Leadership Management for Business ME23M03 Creativity and Innovation in Entrepreneurship ME23M04 Principles of Marketing Management forBusiness ME23M05 Human Resource Management for Entrepreneurs ME23M06 Financing New Business Ventures

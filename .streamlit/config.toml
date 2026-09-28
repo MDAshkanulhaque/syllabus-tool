@@ -1,0 +1,6 @@
+[server]
+toolbarMode = "viewer"
+
+[client]
+toolbarMode = "viewer"
+showErrorDetails = false

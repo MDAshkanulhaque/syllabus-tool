@@ -1,0 +1,14 @@
+PDF FILENAME                                            | CANDIDATES | CANONICAL RECORDS 
+------------------------------------------------------------------------------------------
+BCI-2024-2025 VIT SYLLABUS.pdf                          | 109        | 112               
+CHANDIGADH UNIVERSITY BE-CSE-aiml-curriculum-2026.pdf   | 83         | 0                 
+COIMBATORE INSTITUTE OF TECHNOLOGY, COIMBATORE_B_E_CSE  | 37         | 44                
+HINDUSTAN INSTITUTE OF TECHNOLOGY  SYLLABUS PDF.pdf     | 51         | 56                
+Jeppair-R2024-Curriculum-and-Syllabus-CSBS.pdf          | 93         | 119               
+PANIMALAR ENGINEERING COLLAGE -CSE-Curriculum & Syllab  | 148        | 160               
+RAJALAKSHMIINSTITUTEOF TECHNOLOGY BE-CSE-SYLLABUS-2023  | 63         | 63                
+ST.JOSEPH'S College of engineering SYLLABUS.pdf         | 213        | 226               
+Sri Sivasubramaniya Nadar College of Engineering  ( SS  | 103        | 120               
+avit syllabus.pdf                                       | 113        | 129               
+rit.pdf                                                 | 63         | 63                
+ssn.pdf                                                 | 103        | 120               
