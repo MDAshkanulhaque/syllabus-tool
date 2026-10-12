@@ -1,0 +1,1591 @@
+CONTENTS
+ Chapter 1  Approximations and Errors
+in Computation 
+1
+ 
+1.1 
+Introduction 
+1
+ 
+1.2 
+Accuracy of Numbers 
+2
+ 
+1.3 
+Errors 
+3
+ 
+1.4 
+Useful Rules for Estimating Errors 
+4
+ 
+ 
+Exercises 1.1 
+7
+ 
+1.5 
+Error Propagation 
+8
+ 
+1.6 
+Error in the Approximation of a Function 
+11
+ 
+1.7 
+Error in a Series Approximation 
+13
+ 
+1.8 
+Order of Approximation 
+14
+ 
+1.9 
+Growth of Error 
+15
+ 
+ 
+Exercises 1.2 
+16
+ 
+1.10 
+Objective Type of Questions 
+17
+ 
+ 
+Exercises 1.3 
+17
+ Chapter 2  Solution of Algebraic and Transcendental Equations  
+19
+ 
+2.1 
+Introduction 
+20
+ 
+2.2 
+Basic Properties of Equations 
+20
+ 
+ 
+Exercises 2.1 
+25
+ 
+2.3 
+Transformation of Equations 
+25
+ 
+2.4 
+Synthetic Division of A Polynomial By A Linear Expression 
+29
+ 
+ 
+Exercises 2.2 
+32
+ 
+2.5 
+Iterative Methods 
+32
+ 
+2.6 
+Graphical Solution of Equations 
+33
+ 
+ 
+Exercises 2.3 
+37
+ 
+2.7 
+Rate of Convergence 
+38
+ 
+2.8 
+Bisection Method 
+38
+ 
+2.9  Method of False Position or Regula-Falsi Method or 
+Interpolation Method 
+43
+ 
+2.10 
+Secant Method 
+47
+ 
+2.11 
+Iteration Method 
+50
+ 
+ 
+Exercises 2.4 
+56
+ 
+2.12 
+Newton-Raphson Method 
+57
+ 
+2.13 
+Some Deductions From Newton-Raphson Formula 
+63
+ 
+ 
+Exercises 2.5 
+66
+ 
+2.14 
+Muller’s Method 
+68
+ 
+ 
+Exercises 2.6 
+70
+
+vi • CONTENTS
+ 
+2.15 
+Roots of Polynomials Equations 
+70
+ 
+ 
+Exercises 2.7 
+75
+ 
+ 2.16 
+Multiple Roots 
+75
+ 
+2.17 
+Complex Roots 
+77
+ 
+2.18 
+Lin-Bairstow’s Method 
+78
+ 
+2.19 
+Graeffe’s Root Squaring Method 
+84
+ 
+ 
+Exercises 2.8 
+88
+ 
+2.20 
+Comparison of Iterative Methods 
+89
+ 
+2.21 
+Objective Type of Questions 
+90
+ 
+ 
+Exercises 2.9 
+90
+ Chapter 3  Solution of Simultaneous Algebraic Equations  
+93
+ 
+3.1 
+Introduction t to Determinants 
+93
+ 
+ 
+Exercises 3.1 
+99
+ 
+3.2 
+Introduction To Matrices 
+100
+ 
+ 
+Exercises 3.2 
+113
+ 
+3.3 
+Solution of Linear Simultaneous Equations 
+114
+ 
+3.4 
+Direct Methods of Solution 
+115
+ 
+ 
+Exercises 3.3 
+130
+ 
+3.5 
+Iterative Methods of Solution 
+131
+ 
+ 
+Exercises 3.4 
+145
+ 
+3.6 
+Ill-Conditioned Equations 
+146
+ 
+ 
+Exercises 3.5 
+148
+ 
+3.7 
+Comparison of Various Methods 
+149
+ 
+3.8 
+Solution of Non-Linear Simultaneous Equations 
+149
+ 
+ 
+Exercises 3.6 
+152
+ 
+3.9 
+Objective Type of Questions 
+153
+ 
+ 
+Exercises 3.7 
+153
+ Chapter 4  Matrix Inversion and Eigenvalue Problem 
+155
+ 
+4.1 
+Introduction 
+155
+ 
+4.2 
+Matrix Inversion 
+156
+ 
+4.3 
+Gauss Elimination Method 
+156
+ 
+4.4 
+Gauss-Jordan Method 
+157
+ 
+4.5 
+Factorization Method 
+159
+ 
+4.6 
+Partition Method 
+162
+ 
+4.7 
+Iterative Method 
+165
+ 
+ 
+Exercises 4.1 
+166
+ 
+4.8 
+Eigenvalues and Eigenvectors 
+168
+ 
+4.9 
+Properties of Eigenvalues 
+171
+ 
+4.10 
+Bounds for Eigenvalues 
+172
+
+CONTENTS • vii
+ 
+4.11 
+Power Method 
+174
+ 
+ 
+Exercises 4.2 
+178
+ 
+4.12 
+Jacobi’s Method 
+179
+ 
+4.13 
+Given’s Method 
+183
+ 
+4.14 
+House-Holder’s Method 
+186
+ 
+ 
+Exercises 4.3 
+189
+ 
+4.15 
+Objective Type of Questions 
+190
+ Chapter 5  Empirical Laws and Curve-Fitting 
+193
+ 
+5.1 
+Introduction 
+193
+ 
+5.2 
+Graphical Method 
+194
+ 
+5.3 
+Laws Reducible to the Linear Law 
+195
+ 
+ 
+Exercises 5.1 
+199
+ 
+5.4 
+Principle of Least Squares 
+200
+ 
+5.5 
+Method of Least Squares 
+202
+ 
+ 
+Exercises 5.2 
+208
+ 
+5.6 
+Fitting A Curve of the Type 
+209
+ 
+5.7 
+Fitting of Other Curves 
+212
+ 
+5.8 
+Most Plausible Values of Unknowns 
+216
+ 
+ 
+Exercises 5.3 
+218
+ 
+5.9 
+Method of Group Averages 
+219
+ 
+5.10 
+Laws Containing Three Constants 
+222
+ 
+ 
+Exercises 5.4 
+226
+ 
+5.11 
+Method of Moments 
+228
+ 
+ 
+Exercises 5.5 
+230
+ 
+5.12 
+Objective Type of Questions 
+231
+ 
+ 
+Exercises 5.6 
+231
+ Chapter 6  Finite Differences 
+233
+ 
+6.1 
+Introduction  
+233
+ 
+6.2 
+Finite Differences 
+ 
+234
+ 
+6.3 
+Differences of A Polynomial 
+ 
+240
+ 
+ 
+Exercises 6.1 
+241
+ 
+6.3 
+Factorial Notation 
+242
+ 
+6.5 
+Reciprocal Factorial Function 
+246
+ 
+6.6 
+Inverse Operator of   
+247
+ 
+6.7 
+Effect of an Error on a Difference Table 
+248
+ 
+ 
+Exercises 6.2 
+251
+ 
+6.8 
+Other Difference Operators 
+252
+ 
+6.9 
+Relations Between the Operators 
+252
+ 
+6.10 
+To Find One or More Missing Terms 
+257
+ 
+ 
+Exercises 6.3 
+263
+
+viii • CONTENTS
+ 
+6.11 
+Application to Summation of Series 
+265
+ 
+ 
+Exercises 6.4 
+268
+ 
+6.12 
+Objective Type of Questions 
+269
+ 
+ 
+Exercises 6.5 
+269
+ Chapter 7  Interpolation 
+273
+ 
+7.1 
+Introduction 
+274
+ 
+7.2 
+Newton’s Forward Interpolation Formula 
+274
+ 
+7.3 
+Newton’s Backward Interpolation Formula 
+276
+ 
+ 
+Exercises 7.1 
+283
+ 
+7.4  Central Difference Interpolation Formulae 
+286
+ 
+7.5 
+Gauss’s Forward Interpolation Formula 
+287
+ 
+7.6 
+Gauss’s Backward Interpolation Formula 
+288
+ 
+7.7 
+Stirling’s Formula 
+289
+ 
+7.8 
+Bessel’s Formula 
+290
+ 
+7.9 
+Laplace-Everett’s Formula 
+291
+ 
+7.10 
+Choice of an Interpolation Formula 
+292
+ 
+ 
+Exercises 7.2 
+304
+ 
+7.11 
+Interpolation with Unequal Intervals 
+306
+ 
+7.12 
+Lagrange’s Interpolation Formula 
+306
+ 
+ 
+Exercises 7.3  
+311
+ 
+7.13 
+Divided Differences 
+ 
+313
+ 
+7.14 
+Newton’s Divided Difference Formula  
+314
+ 
+7.15 
+Relation Between Divided and Forward Differences 
+ 
+315
+ 
+ 
+Exercises 7.4  
+319
+ 
+7.16 
+Hermite’s Interpolation Formula 
+ 
+320
+ 
+ 
+Exercises 7.5  
+325
+ 
+7.17 
+Spline Interpolation 
+ 
+326
+ 
+ 
+Exercises 7.6  
+331
+ 
+7.18 
+Double Interpolation  
+331
+ 
+7.19 
+Inverse Interpolation  
+332
+ 
+7.20 
+Lagrange’s Method 
+ 
+332
+ 
+7.21 
+Iterative Method 
+ 
+334
+ 
+ 
+Exercises 7.7  
+336
+ 
+7.22 
+Objective Type of Questions 
+ 
+337
+ 
+ 
+Exercises 7.8  
+337
+ Chapter 8 Numerical Differentiation and Integration 
+339
+ 
+8.1 
+Numerical Differentiation 
+339
+ 
+8.2 
+Formulae for Derivatives 
+340
+ 
+8.3 
+Maxima and Minima of a Tabulated Function 
+352
+ 
+ 
+Exercises 8.1 
+355
+
+CONTENTS • ix
+ 
+8.4 
+Numerical Integration 
+358
+ 
+8.5 
+Newton-Cotes Quadrature Formula 
+359
+ 
+ 
+Exercises 8.2 
+369
+ 
+8.6 
+Errors in Quadrature Formulae 
+372
+ 
+8.7 
+Romberg’s Method 
+375
+ 
+8.8 
+Euler-Maclaurin Formula 
+380
+ 
+8.9 
+Method of Undetermined Coefficients 
+383
+ 
+8.10 
+Gaussian Integration 
+385
+ 
+ 
+Exercises 8.3 
+390
+ 
+8.11 
+Numerical Double Integration 
+392
+ 
+ 
+Exercises 8.4  
+393
+ 
+8.12 
+Objective Type of Questions 
+394
+ 
+ 
+Exercises 8.5  
+394
+ Chapter 9  Difference Equations 
+397
+ 
+9.1 
+Introduction 
+397
+ 
+9.2 
+Definition 
+398
+ 
+9.3 
+Formation of Difference Equations 
+399
+ 
+ 
+Exercises 9.1 
+401
+ 
+9.4 
+Linear Difference Equations 
+401
+ 
+9.5 
+Rules for Finding the Complementary Function 
+402
+ 
+ 
+Exercises 9.2 
+406
+ 
+9.6 
+Rules for Finding the Particular Integral 
+407
+ 
+ 
+Exercises 9.3  
+411
+ 
+9.7 
+Difference Equations Reducible to Linear Form 
+412
+ 
+ 
+Exercises 9.4 
+414
+ 
+9.8 
+Simultaneous Difference Equations with Constant Coefficients 
+414
+ 
+ 
+Exercises 9.5 
+415
+ 
+9.9 
+Application to Deflection of a Loaded String 
+415
+ 
+ 
+Exercises 9.6 
+417
+ 
+9.10 
+Objective Type of Questions 
+417
+ 
+ 
+Exercises 9.7 
+417
+ Chapter 10  Numerical Solution of Ordinary 
+Differential Equations 
+419
+ 
+10.1 
+Introduction 
+420
+ 
+10.2 
+Picard’s Method 
+421
+ 
+10.3 
+Taylor’s Series Method 
+424
+ 
+ 
+Exercises 10.1 
+429
+ 
+10.4 
+Euler’s Method 
+429
+ 
+10.5 
+Modified Euler’s Method 
+432
+ 
+ 
+Exercises 10.2  
+437
+
+x • CONTENTS
+ 
+10.6 
+Runge’s Method 
+438
+ 
+10.7 
+Runge-Kutta Method 
+440
+ 
+ 
+Exercises 10.3 
+447
+ 
+10.8 
+Predictor-Corrector Methods 
+448
+ 
+10.9 
+Milne’s Method 
+448
+ 
+ 
+Exercises 10.4 
+455
+ 
+10.10 
+Adams-Bashforth Method 
+ 
+456
+ 
+ 
+Exercises 10.5 
+462
+ 
+10.11 
+Simultaneous First Order Differential Equations  
+463
+ 
+10.12  Second Order Differential Equations 
+ 
+468
+ 
+ 
+Exercises 10.6 
+472
+ 
+10.13 
+Error Analysis 
+ 
+473
+ 
+10.14 
+Convergence of a Method 
+ 
+476
+ 
+10.15 
+Stability Analysis 
+ 
+476
+ 
+ 
+Exercises 10.7 
+479
+ 
+10.16 
+Boundary Value Problems 
+ 
+479
+ 
+10.17 
+Finite-Difference Method 
+ 
+480
+ 
+10.18 
+Shooting Method 
+ 
+485
+ 
+ 
+Exercises 10.8 
+487
+ 
+10.19 
+Objective Type of Questions 
+ 
+488
+ 
+ 
+Exercises 10.9 
+488
+ Chapter 11  Numerical Solution of 
+Partial Differential Equations 
+491
+ 
+11.1 
+Introduction 
+491
+ 
+11.2 
+Classification of Second Order Equations 
+492
+ 
+ 
+Exercises 11.1 
+493
+ 
+11.3 
+Finite Difference Approximations to Partial Derivatives  
+494
+ 
+11.4 
+Elliptic Equations 
+ 
+495
+ 
+11.5 
+Solution of Laplace’s Equation  
+496
+ 
+11.6 
+Solution of Poisson’s Equation  
+508
+ 
+ 
+Exercises 11.2 
+511
+ 
+11.7 
+Solution of Elliptic Equations by Relaxation Method 
+ 
+513
+ 
+ 
+Exercises 11.3 
+520
+ 
+11.8 
+Parabolic Equations 
+ 
+521
+ 
+11.9 
+Solution of One Dimensional Heat Equation 
+ 
+522
+ 
+11.10 
+Solution of Two Dimensional Heat Equation 
+ 
+530
+ 
+ 
+Exercises 11.4 
+534
+ 
+11.11 
+Hyperbolic Equations  
+535
+ 
+11.12 
+Solution of Wave Equation 
+ 
+535
+
+CONTENTS • xi
+Chapter 12  Linear Programming  
+547
+ 
+12.1 
+Introduction  
+548
+ 
+12.2 
+Formulation of the Problem 
+ 
+548
+ 
+ 
+Exercises 12.11 
+ 
+552
+ 
+12.3 
+Graphical Method 
+ 
+555
+ 
+12.4 
+Some Exceptional Cases 
+ 
+562
+ 
+ 
+Exercises 12.2 
+566
+ 
+12.5 
+General Linear Programming Problem  
+569
+ 
+12.6 
+Canonical and Standard Forms of L.P.P. 
+ 
+570
+ 
+12.7 
+Simplex Method 
+ 
+573
+ 
+ 
+Exercises 12.3 
+577
+ 
+12.8 
+Working Procedure of the Simplex Method 
+ 
+578
+ 
+ 
+Exercises 12.4 
+589
+ 
+12.9 
+Artificial Variable Techniques  
+591
+ 
+12.10 
+Exceptional Cases 
+ 
+599
+ 
+ 
+Exercises 12.5 
+602
+ 
+12.11 
+Duality Concept 
+ 
+603
+ 
+ 
+Exercises 12.6 
+606
+ 
+12.12 
+Duality Principle 
+ 
+607
+ 
+ 
+Exercises 12.7 
+612
+ 
+12.13 
+Dual Simplex Method   
+613
+ 
+ 
+Exercises 12.8  
+ 
+618
+ 
+12.14 
+Transportation Problem  
+ 
+619
+ 
+12.15 
+Working Procedure for Transportation Problems  
+621
+ 
+12.16 
+Degeneracy in Transportation Problems’ 
+ 
+627
+ 
+ 
+Exercises 12.9 
+629
+ 
+12.17 
+Assignment Problem  
+632
+ 
+ 
+Exercises 12.10 
+ 
+639
+ 
+12.18 
+Objective Type of Questions 
+ 
+642
+ 
+ 
+Exercises 12.11 
+ 
+642
+ Chapter 13  A Brief Review of Computers 
+645
+ 
+13.1 
+Introduction  
+645
+ 
+13.2 
+Structure of a Computer 
+ 
+646
+ 
+13.3 
+Computer Representation of Numbers  
+647
+ 
+13.4 
+Floating Point Representation of Numbers 
+ 
+649
+ 
+13.5 
+Computer Calculations 
+ 
+652
+ 
+ 
+Exercises 13.1 
+655
+ 
+13.6 
+Program Writing 
+ 
+655
+
+xii • CONTENTS
+Chapter 14 Numerical Methods Using C Language 
+657
+ 
+14.1 
+Introduction  
+657
+ 
+14.2 
+An Overview of “C” Features  
+658
+ 
+14.3 
+Bisection Method (Section 2.7)  
+674
+ 
+14.4 
+Regula-Falsi Method (Section 2.8) 
+ 
+676
+ 
+14.5 
+Newton Raphson Method (Section 2.11) 
+ 
+679
+ 
+14.6 
+Muller’s Method (Section 2.13)  
+681
+ 
+14.7 
+Multiplication of Matrices [Section 3.2 (3)4] 
+ 
+684
+ 
+14.8 
+Gauss Elimination Method [Section 3.4(3)] 
+ 
+687
+ 
+14.9 
+Gauss-Jordan Method [Section 3.4(4)]  
+689
+ 
+14.10 
+Factorization Method [Section 3.4(5)]  
+691
+ 
+14.11 
+Gauss-Seidal Iteration Method [Section 3.5(2)]  
+695
+ 
+14.12 
+Power Method (Section 4.11)  
+699
+ 
+14.13 
+Method of Least Squares (Section 5.5)  
+703
+ 
+14.14 
+Method of Group Averages (Section 5.9) 
+ 
+706
+ 
+14.15 
+Method of Moments (Section 5.11) 
+ 
+708
+ 
+14.16 
+Newton’s Forward Interpolation Formula (Section 7.2) 
+ 
+711
+ 
+14.17 
+Lagrange’s Interpolation Formula (Section 7.12)  
+714
+ 
+14.18 
+Newton’s Divided Difference Formula (Section 7.14) 
+ 
+716
+ 
+14.19 
+ Derivatives Using Forward Difference Formulae [Section 8.2 (1)]  
+718
+ 
+14.20 
+Trapezoidal Rule (Section 8.5—I) 
+ 
+724
+ 
+14.21 
+Simpson’s Rule (Section 8.5—II) 
+ 
+726
+ 
+14.22 
+Euler’s Method (Section 10.4)  
+727
+ 
+14.23 
+Modified Euler’s Method (Section 10.5)  
+729
+ 
+14.24 
+Runge-Kutta Method (Section 10.7) 
+ 
+732
+ 
+14.25 
+Milne’s Method (Section 10.9)  
+734
+ 
+14.26 
+Adams-Bashforth Method (Section 10.10) 
+ 
+736
+ 
+14.27 
+Solution of Laplace Equation (Section 11.5) 
+ 
+740
+ 
+14.28 
+Solution of Heat Equation (Section 11.9) 
+ 
+745
+ 
+14.29 
+Solution of Wave Equation (Section 11.12) 
+ 
+748
+ 
+14.30 
+Linear Programming—Simplex Method (Section 12.8) 
+ 
+750
+ 
+ 
+Exercises 14.1 
+754
+Chapter 15  Numerical Methods Using C++ Language  
+757
+ 
+15.1 
+Introduction  
+757
+ 
+15.2 
+An Overview of C++ Features  
+758
+ 
+15.3 
+Bisection Method (Section 2.7)  
+776
+ 
+15.4 
+Regula-Falsi Method (Section 2.8) 
+ 
+778
+ 
+15.5 
+Newton Raphson Method (Section 2.11) 
+ 
+780
+ 
+15.6 
+Muller’s Method (Section 2.13)  
+781
+ 
+15.7 
+Multiplication of Matrices [Section 3.2 (3)4] 
+ 
+784
+ 
+15.8 
+Gauss Elimination Method [Section 3.4 (3)] 
+ 
+786
+
+CONTENTS • xiii
+ 
+15.9 
+Gauss-Jordan Method [Section 3.4 (4)]  
+788
+ 
+15.10 
+Factorization Method [Section 3.4 (5)]  
+790
+ 
+15.11 
+Gauss-Seidal Iteration Method [Section 3.5 (2)]  
+793
+ 
+15.12 
+Power Method (Section 4.11)  
+796
+ 
+15.13 
+Method of Least Squares (Section 5.5)  
+799
+ 
+15.14 
+Method of Group Averages (Section 5.9) 
+ 
+801
+ 
+15.15 
+Method of Moments (Section 5.11) 
+ 
+803
+ 
+15.16 
+Newton’s Forward Interpolation Formula (Section 7.2) 
+ 
+805
+ 
+15.17 
+Lagrange’s Interpolation Formula (Section 7.12)  
+807
+ 
+15.18 
+Newton’s Divided Difference Formula (Section 7.14) 
+ 
+808
+ 
+15.19 
+ Derivatives Using Forward Difference Formulae 
+(Section 8.2)  
+809
+ 
+15.20 
+Trapezoidal Rule (Section 8.5—I) 
+ 
+813
+ 
+15.21 
+Simpson’s Rule (Section 8.5—II) 
+ 
+814
+ 
+15.22 
+Euler’s Method (Section 10.4)  
+815
+ 
+15.23 
+Modified Euler’s Method (Section 10.5)  
+816
+ 
+15.24 
+Runge-Kutta Method (Section 10.7) 
+ 
+818
+ 
+15.25 
+Milne’s Method (Section 10.9)  
+819
+ 
+15.26 
+Adams-Bashforth Method 
+ 
+821
+ 
+15.27 
+Solution of Laplace’s Equation (Section 11.5) 
+ 
+823
+ 
+15.28 
+Solution of Heat Equation (Section 11.9) 
+ 
+827
+ 
+15.29 
+Solution of Wave Equation (Section 11.12) 
+ 
+829
+ 
+15.30 
+Linear Programming—Simplex Method (Section 12.8) 
+ 
+830
+ 
+ 
+Exercises 15.1 
+834
+Chapter 16  Numerical Methods Using MATLAB  
+837
+ 
+16.1 
+Introduction  
+837
+ 
+16.2 
+An Overview of MATLAB Features 
+ 
+838
+ 
+16.3 
+Bisection Method (Section 2.7)  
+844
+ 
+16.4 
+Regula-Falsi Method (Section 2.8) 
+ 
+846
+ 
+16.5 
+Newton Raphson Method (Section 2.11) 
+ 
+848
+ 
+16.6 
+Muller’s Method (Section 2.13)  
+849
+ 
+16.7 
+Multiplication of Matrices [Section 3.2 (3)4] 
+ 
+850
+ 
+16.8 
+Gauss Elimination Method [Section 3.4 (3)] 
+ 
+851
+ 
+16.9 
+Gauss-Jordan Method [Section 3.4 (4)]  
+852
+ 
+16.10 
+Factorization Method [Section 3.4 (5)]  
+853
+ 
+16.11 
+Gauss Siedel Iteration Method [Section 3.5 (2)]  
+856
+ 
+16.12 
+Power Method (Section 4.11)  
+858
+ 
+16.13 
+Method of Least Squares (Section 5.5)  
+860
+ 
+16.14 
+Method of Group Averages (Section 5.9) 
+ 
+861
+ 
+16.15 
+Method of Moments (Section 5.11) 
+ 
+863
+ 
+16.16 
+Newton’s Forward Interpolation Formula (Section 7.2) 
+ 
+864
+
+xiv • CONTENTS
+ 
+16.17 
+Lagrange’s Interpolation Formula (Section 7.12)  
+866
+ 
+16.18 
+Newton’s Divided Difference Formula (Section 7.14) 
+ 
+867
+ 
+16.19 
+ Derivatives Using Forward Difference Formula 
+[Section 8.2]  
+868
+ 
+16.20 
+Trapezoidal Rule (Section 8.5-1) 
+ 
+870
+ 
+16.21 
+Simpson’s Rule (Section 8.5-II)  
+871
+ 
+16.22 
+Euler’s Method (Section 10.4)  
+871
+ 
+16.23 
+Modified Euler’s Method (Section 10.5)  
+872
+ 
+16.24 
+Runge-Kutta Method (Section 10.7) 
+ 
+873
+ 
+16.25 
+Milne’s Method (Section 10.9)  
+874
+ 
+16.26 
+Adams-Bashforth Method (Section 10.10) 
+ 
+876
+ 
+16.27 
+Solution of Laplace’s Equation (Section 11.5) 
+ 
+877
+ 
+16.28 
+Solution of Heat Equation (Section 11.9) 
+ 
+881
+ 
+16.29 
+Solution of Wave Equation (Section 11.12) 
+ 
+882
+ 
+16.30 
+Linear Programming-Simplex Method (Section 12.8) 
+884
+ 
+ 
+Exercises 16.1 
+887
+ Appendix A  Useful Information 
+ 
+891
+ 
+I 
+Basic Information and Errors  
+891
+ 
+II 
+ Solution of Algebraic and Trancendental Equations 
+ 
+892
+ 
+III 
+Solution of Simultaneous Algebraic Equations 
+ 
+893
+ 
+IV 
+Finite Differences and Interpolation 
+ 
+895
+ 
+V 
+Interpolation 
+895
+ 
+ VI 
+Numerical Differentiation 
+ 
+897
+ 
+VII 
+Numerical Integration  
+898
+ 
+VIII 
+Number Solution of ordinary Differential Equations 
+900
+ 
+IX 
+Number Solution of Partial Differential Equations 
+901
+ Appendix B  Answers to Exercises 
+903
+ Appendix C  Bibliography 
+929
+Index 
+931
+
