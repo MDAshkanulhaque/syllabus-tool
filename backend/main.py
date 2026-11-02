@@ -24,7 +24,8 @@ app = FastAPI(title="Syllabus Extraction & Chatbot Backend")
 
 
 # Upload folder
-UPLOAD_DIR = "uploads"
+_backend_uploads = os.path.join(os.path.dirname(__file__), "uploads")
+UPLOAD_DIR = _backend_uploads if os.path.isdir(_backend_uploads) else "uploads"
 os.makedirs(UPLOAD_DIR, exist_ok=True)
 
 # In-memory document QA engines cache
@@ -47,18 +48,41 @@ def home():
 
 @app.post("/upload-syllabus")
 def upload_syllabus(file: UploadFile = File(...)):
+    raw_filename = file.filename or ""
+    safe_filename = os.path.basename(raw_filename).strip()
 
-    # Check PDF
-    if not file.filename.lower().endswith(".pdf"):
+    # Reject empty, null bytes, or directory traversal attempts
+    if not safe_filename or ".." in raw_filename or "\x00" in raw_filename:
+        return {
+            "success": False,
+            "message": "Invalid or unsafe filename provided"
+        }
+
+    # Check PDF extension
+    if not safe_filename.lower().endswith(".pdf"):
         return {
             "success": False,
             "message": "Only PDF files are allowed"
         }
 
-    # Save uploaded PDF
-    file_path = os.path.join(UPLOAD_DIR, file.filename)
+    upload_dir_abs = os.path.abspath(UPLOAD_DIR)
+    os.makedirs(upload_dir_abs, exist_ok=True)
+    file_path = os.path.abspath(os.path.join(upload_dir_abs, safe_filename))
+
+    # Path traversal protection
+    if not file_path.startswith(upload_dir_abs + os.sep) and file_path != upload_dir_abs:
+        return {
+            "success": False,
+            "message": "Directory traversal attempt detected"
+        }
 
     content = file.file.read()
+    # Content-based magic bytes validation for PDF
+    if not content.startswith(b"%PDF-"):
+        return {
+            "success": False,
+            "message": "Uploaded file is not a valid PDF document"
+        }
 
     with open(file_path, "wb") as f:
         f.write(content)
@@ -194,4 +218,4 @@ def read_book_endpoint(id: Optional[str] = None, url: Optional[str] = None, q: O
             status_code=400,
             detail="Parameter 'id', 'url', or 'q' is required"
         )
-    return get_book_readable_content(target)
+    return get_book_readable_content(target)

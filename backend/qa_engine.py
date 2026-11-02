@@ -134,9 +134,18 @@ class AcademicSyllabusQAEngine:
         """
         Dynamically generates acronym mappings for all detected subjects in the active PDF.
         E.g. "DATABASE MANAGEMENT SYSTEMS" -> "dbms", "CYBER SECURITY PRINCIPLES" -> "csp"
+        Filters out common English words and pronouns to prevent conversational query collisions.
         """
         acronym_map = {}
         STOP_WORDS = {"and", "or", "for", "in", "of", "to", "with", "the", "a", "an"}
+        COMMON_WORDS_DISALLOWED = {
+            "is", "me", "be", "we", "it", "as", "at", "an", "in", "on", "to",
+            "no", "so", "do", "he", "my", "up", "am", "if", "by", "or", "us",
+            "of", "go", "hi", "ha", "ok", "all", "the", "and", "for", "can",
+            "not", "you", "are", "was", "has", "had", "how", "why", "who",
+            "any", "our", "him", "her", "his", "she", "its", "let", "see",
+            "get", "set", "put", "say", "tell", "show", "give", "ask"
+        }
         
         for subj in self.subjects:
             clean_s = self._clean_subject_title(subj)
@@ -145,7 +154,7 @@ class AcademicSyllabusQAEngine:
             
             if len(words) >= 2:
                 acronym = "".join([w[0].lower() for w in words if w[0].isalpha()])
-                if len(acronym) >= 2 and acronym not in acronym_map:
+                if len(acronym) >= 2 and acronym not in COMMON_WORDS_DISALLOWED and acronym not in acronym_map:
                     acronym_map[acronym] = title_only.lower()
                     
         return acronym_map
@@ -334,11 +343,16 @@ class AcademicSyllabusQAEngine:
         GENERIC_STOP_WORDS = {
             "and", "with", "for", "ka", "ki", "ke", "ko", "syllabus", "bhejo", "batao",
             "course", "subject", "bataiye", "give", "show", "me", "tell", "what", "is",
-            "the", "units", "topics", "outcomes", "books", "code", "detail", "details"
+            "the", "units", "topics", "outcomes", "books", "code", "detail", "details",
+            "of", "in", "to", "from", "a", "an", "by", "about", "are", "do", "does",
+            "can", "how", "why", "which", "where", "who", "when"
         }
 
         q_words = [w for w in re.split(r"[^\w]+", q_title) if len(w) >= 2]
-        q_non_stop = [w for w in q_words if w not in GENERIC_STOP_WORDS]
+        q_non_stop = [w for w in q_words if w not in GENERIC_STOP_WORDS and len(w) >= 3]
+
+        if not q_non_stop:
+            return []
 
         scored_candidates = []
 
@@ -352,15 +366,16 @@ class AcademicSyllabusQAEngine:
 
             c_code = extract_course_code(s)
             s_words = [w for w in re.split(r"[^\w]+", cs_low) if len(w) >= 2]
-            s_non_stop = [w for w in s_words if w not in GENERIC_STOP_WORDS]
+            s_non_stop = [w for w in s_words if w not in GENERIC_STOP_WORDS and len(w) >= 3]
+
+            matching_non_stop = set(q_non_stop).intersection(set(s_non_stop))
 
             score = 0
             if cs_low and cs_low in q_title:
                 score = 1000
-            elif cs_low and q_title in cs_low:
+            elif cs_low and q_title in cs_low and matching_non_stop:
                 score = 800
 
-            matching_non_stop = set(q_non_stop).intersection(set(s_non_stop))
             if matching_non_stop:
                 score += len(matching_non_stop) * 200
 

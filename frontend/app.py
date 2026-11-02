@@ -313,8 +313,9 @@ def load_history():
 
 def save_history(history_data):
     try:
+        capped_data = history_data[-50:] if isinstance(history_data, list) and len(history_data) > 50 else history_data
         with open(HISTORY_FILE, "w", encoding="utf-8") as f:
-            json.dump(history_data, f, ensure_ascii=False)
+            json.dump(capped_data, f, ensure_ascii=False)
     except Exception as e:
         print(f"Error saving {HISTORY_FILE}: {e}")
 

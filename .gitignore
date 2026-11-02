@@ -6,3 +6,6 @@ venv/
 .venv/
 .env
 .DS_Store
+frontend/chat_history.json
+frontend/chat_history*.json
+
