@@ -1,11 +1,23 @@
-from fastapi import FastAPI, UploadFile, File
+from fastapi import FastAPI, UploadFile, File, HTTPException
+from fastapi.responses import RedirectResponse
 from pydantic import BaseModel
 from typing import Optional
 import fitz
 import os
+import sys
+
+# Ensure backend directory is in sys.path
+sys.path.insert(0, os.path.dirname(__file__))
 
 from subject_detector import extract_subject_candidates
 from qa_engine import AcademicSyllabusQAEngine
+from book_engine.internet_books import (
+    search_internet_books,
+    is_safe_download_url,
+    clean_search_query,
+    get_book_readable_content
+)
+
 
 
 app = FastAPI(title="Syllabus Extraction & Chatbot Backend")
@@ -144,3 +156,42 @@ def chat_with_syllabus(req: ChatQueryRequest):
         "found": res.get("found", True),
         "details": res
     }
+
+
+@app.get("/books/search")
+def search_books_endpoint(q: str, limit: int = 8):
+    if not q or not q.strip():
+        return {
+            "success": False,
+            "message": "Query parameter 'q' is required",
+            "results": [],
+            "cleaned_query": ""
+        }
+    res = search_internet_books(q.strip(), limit=limit)
+    clean_q = res.get("clean_info", {}).get("catalog_query", q.strip())
+    return {
+        "success": True,
+        **res,
+        "cleaned_query": clean_q
+    }
+
+
+@app.get("/books/download")
+def download_book_endpoint(url: str):
+    if not is_safe_download_url(url):
+        raise HTTPException(
+            status_code=400,
+            detail="Invalid or unauthorized download URL"
+        )
+    return RedirectResponse(url=url, status_code=307)
+
+
+@app.get("/books/read")
+def read_book_endpoint(id: Optional[str] = None, url: Optional[str] = None, q: Optional[str] = None):
+    target = id or url or q or ""
+    if not target:
+        raise HTTPException(
+            status_code=400,
+            detail="Parameter 'id', 'url', or 'q' is required"
+        )
+    return get_book_readable_content(target)
